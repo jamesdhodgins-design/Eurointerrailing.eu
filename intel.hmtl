@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Euro Interrailing</title>
+
+<style>
+body{
+margin:0;
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:white;
+font-family:Arial, sans-serif;
+}
+
+h1{
+font-size:90px;
+font-weight:bold;
+text-align:center;
+
+background:linear-gradient(
+45deg,
+#ff00aa,
+#ff66cc,
+#ff1493,
+#ff69b4,
+#ff00aa
+);
+
+background-size:300% 300%;
+
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+
+animation:glitter 2s linear infinite;
+
+text-shadow:
+0 0 5px pink,
+0 0 10px hotpink,
+0 0 20px deeppink;
+}
+
+@keyframes glitter{
+0%{background-position:0% 50%;}
+50%{background-position:100% 50%;}
+100%{background-position:0% 50%;}
+}
+</style>
+</head>
+
+<body>
+
+<h1>April fools day cuck</h1>
+
+</body>
+</html>
